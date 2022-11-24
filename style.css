@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 150px;
+}
+
+
+.logo{
+    width: 10%;
+    float: left;
+    padding: 10px;
+}
+
+nav.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+nav.head button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    outline-color: none;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.unlimited {
+    border-bottom: 100px;
+    color: white;
+    margin-left: 150px;
+}
+
+.unlimited input{
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.unlimited button{
+    padding: 12px 20px;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+.unlimited p{
+    padding: 10px;
+}
+
+.first{
+    background: rgba(0,0,0,.4);
+    background-image: url('image 1.jpg');
+}
+
+.body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.second{
+    display: flex;
+    background-color: black;
+    background-size: contain;
+    justify-content: space-evenly;
+}
+
+.TV{
+    width: 570px;
+    margin-right: 80px;
+}
+
+.body p{
+    font-size: 26px;
+    width: 380px;
+    padding: 20px 5px;
+}
+
+.body h1{
+    padding: 70px 10px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.third p{
+    font-size: 26px;
+    width: 380px;
+    padding: 20px 0;
+}
+
+.third h1{
+    padding: 70px 0;
+}
+
+.fourth{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.fourth p{
+    font-size: 26px;
+    width: 380px;
+    padding: 20px 0;
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.fifth p{
+    font-size: 28px;
+    width: 380px;
+    padding: 20px 0;
+}
+
+.fifth h1{
+    padding: 70px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sixth{
+    background-color: black;
+    color: white;
+    padding: 50px 300px;
+    justify-content: center;
+}
+
+div.faq-content{
+    transform: rotate(90deg);
+    cursor: pointer;
+    padding: 120px;
+    border: 10px;
+}
+
+.talk input{
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.talk button{
+    padding: 12px 20px;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+.talk p{
+    padding-top: 20px;
+}
+
+.last ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px;
+}
+
+.seventh{
+    background-color: black;
+    color: white;
+}
+
+.last p{
+    padding: 20px;
+}
+
+.last span li{
+    margin: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 13px;
+}
